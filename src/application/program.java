@@ -23,11 +23,5 @@ public class program {
         carrinhoCompras.removerItem("Pera");
         carrinhoCompras.exibirItem();
         System.out.println(carrinhoCompras.calcularValorTotal());
-
-        System.out.println(carrinhoCompras.equals("Feijao"));
-
-        Item item = new Item("Feijao", 20.00, 2);
-
-
     }
 }
